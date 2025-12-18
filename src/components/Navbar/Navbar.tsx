@@ -5,7 +5,7 @@ import notificationsIcon from "../../assets/images/svgs/Notification.svg";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#FAFAFA] py-4 px-6 border-b border-[#E8E8E8] rounded-t-3xl h-16">
+    <nav className="sticky top-0 bg-[#FAFAFA] py-4 px-6 border-b border-[#E8E8E8] rounded-t-3xl h-16">
       <div className="flex items-center justify-between">
         <div>
           <a href="/">
